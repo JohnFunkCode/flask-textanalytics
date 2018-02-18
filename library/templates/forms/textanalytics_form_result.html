@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>textanalytics output</title>
+</head>
+<body>
+First: {{first}}<br/>
+Second: {{second}}<br/>
+<br/>
+<hr/>
+Here are the common words:
+{% for word in commonwords %}
+    <li>{{word}}</li>
+{% endfor %}
+<a href="/textanalytics">try again</a>
+</body>
+</html>
