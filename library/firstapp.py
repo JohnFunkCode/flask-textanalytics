@@ -1,7 +1,7 @@
 from flask import Flask
 from flask import render_template
 from flask import request
-from textanalytics import textanalytics as ta
+from library.textanalytics import textanalytics as ta
 
 app = Flask(__name__)
 
